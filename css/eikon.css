@@ -1,0 +1,208 @@
+body {
+  background-color: #fafafa;
+  position: relative; }
+
+.wrap {
+  width: 1200px;
+  height: 2190px;
+  margin: 0 auto;
+  background-color: #fff; }
+
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: #0097cf; }
+  .header .img {
+    margin-top: 10px; }
+    .header .img span {
+      font-size: 20px;
+      font-weight: bold;
+      color: #fff; }
+  .header .title ul {
+    height: 60px; }
+    .header .title ul li {
+      width: 100px;
+      float: left;
+      text-align: center;
+      line-height: 60px;
+      color: #fff; }
+      .header .title ul li:hover {
+        background-color: #0088ba; }
+  .header .user {
+    line-height: 60px; }
+    .header .user p {
+      color: #fff; }
+      .header .user p i {
+        padding-right: 10px;
+        color: #fff; }
+      .header .user p span {
+        color: #43beec; }
+
+.number {
+  height: 125px;
+  border-bottom: 1px solid #ccc; }
+  .number .rows1 {
+    width: 1200px;
+    height: 20px;
+    line-height: 20px;
+    padding-top: 60px; }
+    .number .rows1 div:nth-child(1) {
+      text-align: center;
+      color: blue;
+      font-size: 25px; }
+    .number .rows1 div input {
+      display: inline-block;
+      margin-top: -5px;
+      height: 36px;
+      width: 370px;
+      border: 1px solid #ccc;
+      border-radius: 3px; }
+    .number .rows1 div button {
+      display: inline-block;
+      margin-left: 10px;
+      height: 38px;
+      width: 85px;
+      background: #F7AC01;
+      color: #fff;
+      border: 0;
+      border-radius: 6px; }
+
+.right {
+  float: right; }
+  .right li {
+    width: 137px;
+    background-color: #f8f8f8; }
+    .right li:nth-child(1) {
+      color: #0097cf; }
+  .right a {
+    color: #000; }
+
+.rows2 {
+  width: 1200px;
+  height: 200px;
+  margin: 30px auto; }
+  .rows2 dl {
+    width: 190px;
+    height: 200px;
+    text-align: center;
+    margin-right: 20px; }
+    .rows2 dl img {
+      display: block;
+      width: 215px;
+      height: 180px; }
+    .rows2 dl dd {
+      margin-top: 5px; }
+  .rows2 .td {
+    font-weight: bold;
+    color: #000;
+    line-height: 30px; }
+    .rows2 .td:nth-child(2) {
+      color: #2d3eff; }
+  .rows2 table {
+    width: 430px;
+    height: 190px;
+    border: 1px solid #ccc;
+    background: #FCFCFE;
+    padding: 2px;
+    text-align: center;
+    margin-left: 60px; }
+  .rows2 .tables td {
+    position: relative; }
+    .rows2 .tables td span {
+      border: 1px solid #ccc;
+      background: #eee;
+      padding: 8px; }
+    .rows2 .tables td i {
+      position: absolute;
+      right: 15px;
+      top: 5px;
+      width: 20px;
+      height: 20px;
+      border-radius: 10px;
+      background-color: #f4c600;
+      color: #fff; }
+  .rows2 .add {
+    cursor: pointer; }
+  .rows2 .button {
+    display: none; }
+    .rows2 .button .input {
+      display: inline-block;
+      height: 36px;
+      width: 200px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      position: absolute;
+      left: 100px; }
+    .rows2 .button .but {
+      width: 40px;
+      height: 36px;
+      display: block;
+      border: 1px solid #ccc;
+      position: absolute;
+      left: 300px;
+      text-align: center;
+      line-height: 36px;
+      cursor: pointer; }
+
+.rows3 {
+  width: 550px;
+  height: 200px;
+  margin: 20px; }
+  .rows3 table {
+    width: 550px;
+    height: 190px; }
+    .rows3 table tr td {
+      width: 270px; }
+      .rows3 table tr td span {
+        display: inline-block;
+        width: 60px;
+        text-align: right;
+        margin-right: 20px; }
+  .rows3 .td {
+    font-weight: bold;
+    color: #000; }
+
+h4 {
+  margin-left: 12px; }
+
+.div {
+  height: 172px; }
+  .div h5 {
+    text-align: center; }
+  .div .dis {
+    width: 90%;
+    margin: 35px auto; }
+    .div .dis dl {
+      float: left;
+      margin-left: 38px; }
+      .div .dis dl dd {
+        margin-left: 10px;
+        margin-top: 5px; }
+
+.table {
+  border: 1px solid #ccc; }
+  .table td {
+    text-align: center; }
+  .table th {
+    text-align: center; }
+  .table .he {
+    text-align: center;
+    background-color: #f8f8f8; }
+  .table .color {
+    background-color: #f8f8f8; }
+
+.top {
+  margin-top: 170px;
+  margin-left: 10px; }
+
+.tab {
+  width: 90%;
+  margin: 0 auto; }
+  .tab th {
+    text-align: center; }
+  .tab td {
+    text-align: center; }
+  .tab .blue {
+    color: #0097cf; }
+
+/*# sourceMappingURL=eikon.css.map */
